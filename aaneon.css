@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&display=swap');
+
+
+*
+.neon {
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    
+}
+h3{
+    
+    color: #fff;
+    font-size: 10em;
+    padding: 0;
+    margin: 0;
+}
+h3 span{
+    font-family: 'Geostar Fill', cursive;
+    /*display: table-cell;*/
+    margin: 0;
+    padding: 0;
+    animation: animação 4s linear infinite; /*isso define o tempo*/
+    /**/
+}
+h3 span{
+    animation-delay: 10s;
+}
+@keyframes animação { /*@keyframes é pontos chaves*/
+
+    0%,100%{/*a animaçao tem 2 segundos*//*pontos chaves*/
+        color: rgb(194, 191, 191);
+        filter: blur(2px);/*para uma embaçada
+        o filter: brightness(x%) ajuda no brilho
+        o filter: constrast(x%) ajuda no contrast
+        o filter: grayscale(x%) deixa preto e branco
+        o filter: invert(x%) inverte a cor das cores
+        o filter: opacity(x%) deixa transparente
+        o filter: saturate(x%) saturação
+        o filter: sepia(x%) deixar nos aspectos antigos
+        o filter: hue-rotate(xdg) muda as cores
+        o filter: drop-shadow(10px 20px 5px #000) isso da uma sombra muito massa*/
+        text-shadow: 0 0 10px #04ac5e, /* text-shadow é uma sombra no texto*/
+                    0 0 20px #04ac5e, /*primeiro parametro: deslocamento para direita
+                    se colocra numero negativo, ele desloca para o lado oposto
+                    segundo parametro deslocamento para baixo
+                    terceiro parametro é o embacamento
+                    terceiro parametro é a cor*/
+                    0 0 40px #04ac5e,
+                    0 0 80px #04ac5e,
+                    0 0 120px #04ac5e,
+                    0 0 200px #04ac5e,
+                    0 0 300px #04ac5e,
+                    0 0 400px #04ac5e;
+                    /*é possivel aplicra varias sombras*/
+    }
+    
+    5%,95%{ /*porcentagem do tempo*/
+        color: #fff;
+        filter: blur(0px);
+        text-shadow: none;
+    }
+    
+}
+
+/*body{ escolha um evento que dispara ela
+    animation: btn-anumation 1s ease-out forwards; ease-out forwards começa suave
+}
+@keyframes btn-animation {
+    0% {
+        transform: translateY(0px);
+        box-shadow: 0px 0px 0px gray;
+    }
+    25% {
+        transform: translateY(-20px);
+        box-shadow: 0px 20px 0px gray;
+    }
+    50% {
+        transform: translateY(20px);
+        box-shadow: 0px -20px 0px gray;
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}*/

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Official Tesla Motors Website</title>
+    <link rel="shortcut icon" href="tesla.png">
+    <link rel="stylesheet" href="aalogintesla.css">
+    <link rel="stylesheet" href="carro.css">
+</head>
+<body>
+    <div class="conteiner">
+        <button class="modoly" id="btn-modoly"><a href="#">Y</a></button>
+        <button class="modols" id="btn-modols"><a href="#">S</a></button>
+        <button class="modolx" id="btn-modolx"><a href="#">X</a></button>
+    </div>
+    
+    <div class="bg-img">
+        <div class="content">
+            <header>Login</header>
+            <form action="#">
+                <div class="field">
+                    <span><ion-icon name="person"></ion-icon></span>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="field space">
+                    <span><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <div class="pass">
+                    <a href="#">Forgot password?</a>
+                </div>
+                <div class="field">
+                    <input type="submit" value="LOGIN">
+                </div>
+                <div class="login">or login with</div>
+                <div class="link">
+                    <div class="facebook">
+                        <i><ion-icon name="logo-facebook"></ion-icon><span>Facebok</span></i>
+                    </div>
+                    <div class="twitter">
+                        <i><ion-icon name="logo-twitter"></ion-icon><span>Twitter</span></i>
+                    </div>
+                    <div class="google">
+                        <i><ion-icon name="logo-google"></ion-icon><span>Google</span></i>
+                    </div>
+                </div>
+                <div class="signup">Don't have an account?
+                    <a href="cadastro.html">Sign up now!</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        
+        document.getElementById("btn-modoly").//vc pega oq esta aq dentro do btn-modoly
+        addEventListener("click", function(){//o click btn-modoly chama a funçao
+            document.querySelector("body").//a funçao colocar no body oq tem dentro da class modoly
+            setAttribute("class", "modoly");
+        })
+        document.getElementById("btn-modols").
+        addEventListener("click", function(){
+            document.querySelector("body").
+            setAttribute("class", "modols");
+        })
+        document.getElementById("btn-modolx").
+        addEventListener("click", function(){
+            document.querySelector("body").
+            setAttribute("class", "modolx");
+        })
+    </script>
+</body>
+</html>

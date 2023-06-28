@@ -1,0 +1,125 @@
+*{
+    margin:0;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #ccc;
+    height: 100vh;
+}
+
+header {
+    background: linear-gradient(rgb(26, 26, 26), #ccc);
+    padding: 10px;
+    color:#fff;
+    text-align: center;
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+}
+.titulo p{
+    text-align: center;
+}
+.teslalogomodel{
+    width: 60px;
+    height: 60px;
+    padding: 7px, 21px;
+    
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 30px;
+   
+}
+
+main{
+    /*padding: 30px 50px;*/
+    background-color: #ccc;
+    height: 62vh;
+}
+.cartao{
+    background-color: rgb(75, 75, 75);
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 300px;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.lineInput{
+    display: grid;
+    margin-bottom: 10px;
+}
+input{
+    background: rgb(36, 36, 36);
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #fff;
+    /*border-radius: 10px;*/
+    outline: 0; /*serve para tirar a borda preta qunadoclicar no input*/
+}
+button{
+    border: 0;
+    padding: 3px 10px;
+    outline: 0;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+    /*border-radius: 10px;*/
+}
+button:hover {
+    background: #2691d9;
+}
+.conteudo{
+    margin-top: 290px;
+    padding: 0 400px;
+}
+
+table{
+    border-collapse: collapse; /*fica um formato de borda muito lindo, fininha*/
+    border: 1px solid rgb(150, 149, 149);
+    width: 100%;
+}
+table th{
+    background: rgb(214, 214, 214);
+}
+table th, td{
+    padding: 1px 5px;
+    text-align: left;/*vai jogar nossos itens para a esquerda*/
+}
+table td img {
+    width: 22px;
+}
+.centralizadora {
+    text-align: center;
+}
+main .lineInput label{
+    color: #fff;
+}
+input[type=submit]{
+    border-radius: 5px;
+    padding: 3px 10px;
+    background: #3498db;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #2691d9;
+    cursor: pointer;
+    margin-top: 20px;
+}
+input[type=submit]:hover{
+    background: #2691d9;
+}
+footer{
+    width: 100%;
+    background: linear-gradient(#ccc, rgb(26, 26, 26));
+    padding: 10px;
+    color:#fff;
+    text-align: center;
+}

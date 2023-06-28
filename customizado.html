@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize | Official Tesla Motors Website</title>
+    <link rel="shortcut icon" href="tesla.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="customizado.css">
+    <script src="customizado.js"></script>
+</head>
+<body>
+
+    <header> 
+        <img src="tesla.png" class="teslalogomodel">
+    </header>
+
+    <main>
+        
+        <div class="titulo">
+            <h2>Customize Tesla</h2>
+            <p>Choose Your Tesla Models and Color.</p>
+        </div>
+        <div class="cartao">
+            <div class="lineInput">
+                <label>Tesla Model</label>
+                <input type="text" id="model" placeholder="Ex: Model S">
+            </div>
+            <div class="lineInput">
+                <label>Tesla Color</label>
+                <label>​🔴​🟠​🟡​🟢​🔵​🟣​⚫️​⚪️​🟤​</label>
+                <input type="text" id="color" placeholder="Copy and Paste One Color">
+            </div>
+            <button onclick="produto.salvar()//quando o usuario clicar nesse butão ira chamar a função">Save</button>
+            <!-- -- >irar chamar produto</!-- -->
+            <button onclick="produto.cancelar()">Cancel</button>
+            <!-- -- >irar chamar produto</!-- -->
+        </div>
+        <div class="conteudo">
+            <table border="1">
+                <thead> <!-- -- >titulos da tabela</!-- -->
+                    <th class="centralizadora">ID</th>
+                    <th>Tesla Model</th>
+                    <th>Tesla Color</th>
+                    <th>Delete</th>
+                </thead>
+                <tbody id="tbody"> <!-- -- >miólos da tabela</!-- --> <!-- -- > tr sao minhas linhas e td minhas colunas </!-- -->
+                      
+                </tbody>
+            </table>
+            <div class="enviar">
+                <a href="POO.html"><input type="submit" value="Eviate"></a>
+            </div>
+        </div>
+        <footer>
+            <img src="tesla.png" class="teslalogomodel">
+        </footer>
+    </main>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>

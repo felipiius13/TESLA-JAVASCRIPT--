@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}*/
+body{
+    background: rgb(26, 26, 26);
+}
+.animacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*min-height: 100vh;*/
+    background: rgb(26, 26, 26);
+}
+.container {
+    display: inline-flex;
+}
+.container .estatico{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+}
+.container .dinamico{
+    margin-left: 15px;
+    line-height: 90px;
+    height: 90px;
+    overflow: hidden; /*isso aq é muito importante pqra que so o da vez seja lido*/
+}
+.dinamico li{
+    color: #fff;
+    list-style: none;
+    font-size: 60px;
+    font-weight: 500;/*grossora da letra*/
+    left: 0;
+    position: relative; /*position relative serve para ficar mudando*/
+    top: 0;
+    animation: slide 6s steps(4) infinite;/*rodar um li por vez*/
+}
+@keyframes slide {
+    100%{
+        top: -360px;/*vc da a volta completa e vai para o proximi*/
+    }
+}
+.dinamico li span{
+    position: relative;/*isso serve para que vc consiga ler so enquanto a digitos*/
+}
+.dinamico li span::after{ /*pseudo-elemets ::after e ::before*/
+    /*::after->depois ::before->antes*/
+    content: "";/*;TIRA EU​🔴​🔴​🔴​🔴​🔴​🔴​🔴​🔴​🔴​*/
+    /*o content vai criar o pseudo-elemets*/
+    position: absolute;
+    width: 100%;/*largura que o texto vai tomando*/
+    height: 100%;/*altura tem que ser o 100% do elemneto*/
+    left: 0; /*a esquerda tem que começar em zero para poder dar o
+    efeito*/
+    border-left: 2px solid white;/*isso aq é o traciho*/
+    animation: typing 1.5s steps(15) infinite;
+    background: rgb(26, 26, 26);
+    
+}
+
+@keyframes typing {
+    100%{
+        left: 100%;/*o tracinho tem que ir 100% para esquerda*/
+        /*a esqueda vai aumentando ate chegar no 100%*/
+        margin: 0 -35px 0 35px;
+    }
+}

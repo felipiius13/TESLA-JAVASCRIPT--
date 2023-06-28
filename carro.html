@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="carro.css">
+    <title>Mada carro</title>
+</head>
+<body>
+
+    <div class="conteiner">
+        <button class="modoly" id="btn-modoly"><a href="#">Y</a></button>
+        <button class="modols" id="btn-modols"><a href="#">S</a></button>
+        <button class="modolx" id="btn-modolx"><a href="#">X</a></button>
+    </div>
+    
+    <script>
+        document.getElementById("btn-modoly").
+        addEventListener("click", function(){
+            document.querySelector("body").
+            setAttribute("class", "modoly");
+        })
+        document.getElementById("btn-modols").
+        addEventListener("click", function(){
+            document.querySelector("body").
+            setAttribute("class", "modols");
+        })
+        document.getElementById("btn-modolx").
+        addEventListener("click", function(){
+            document.querySelector("body").
+            setAttribute("class", "modolx");
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+.modoly{
+    background: url(teslaultimo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 36px;
+    margin-left: 0;
+}
+
+.modols{
+    background: url(teslaultimo2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.modolx{
+    background: url(teslaultimo3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+button{
+    padding: 5px 10px;
+    border: 0;
+    cursor:pointer;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0 10px;
+}
+button a{
+    color:white;
+}
+.conteiner{
+    margin: 0;
+    display: flex;
+    display: inline-block;
+    position: absolute;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 90vw;
+    text-align: center;*/
+}

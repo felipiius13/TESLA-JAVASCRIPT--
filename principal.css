@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.primeira_cabeça{
+    width: 100%;
+    height: 46px;
+    background: #1e1e1e;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.segundaparte_cabeçario{
+    padding: 7px, 11px, 0, 0;
+}
+.segundaparte_cabeçario img {
+    margin-left: 0;
+    margin-right: 0px;
+
+}
+
+.imagem_twitter{
+    width: 35.56px;
+    height: 25px;
+}
+.imagem_spacex {
+    width: 120px;
+    height: 28px;
+}
+.imagem_SolarCity{
+    width: 90px;
+    height: 23.3px;
+}
+.imagem_PayPal{
+    width: 55.66px;
+    height: 28px;
+}
+.primeiraparte_cabeçario{
+    margin-left: 24px;
+    font: inherit;
+    vertical-align: baseline;
+}
+.segundaparte_cabeçario{
+    right: 0;
+}
+.primeiraparte_cabeçario li{
+    display: inline-block;
+    color: white;
+}
+.primeiraparte_cabeçario li a{
+    color: white;
+    text-decoration: none;
+}
+.primeiraparte_cabeçario li a:hover{
+    color: white;
+    text-decoration:underline;
+}
+.segundaparte_cabeçario li{
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.primeiraparte_cabeçario ion-icon{
+    padding-right: 8px;
+    width: 16;
+    height: 16;
+}
+.setinha{
+   margin-right: 10px;
+   margin-left: 6px;
+}
+.segunda_cabeça{
+    
+    width: 100%;
+    height: 76px;
+    background: #c70101;
+    display: flex;
+    /*justify-content:space-between;*/
+    align-items: center;
+}
+.logo_tesla{
+    width: 60px;
+    height: 60px;
+    padding: 7px, 21px;
+    background: rgb(194, 191, 191);
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 30px;
+    border: 1px solid #040B18;
+}
+.cabeçario_2_2{
+    margin-left: 30px;
+}
+.cabeçario_2_2 li{
+    display: inline-block;
+    /*color: white;
+    font-weight:bolder;
+    font-size: 14px;*/
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.cabeçario_2_2 li a{
+    text-decoration: none;
+    color: white;
+    font-weight:bolder;
+    font-size: 14px;
+}
+.cabeçario_2_2 li a:hover{
+    text-decoration:underline;
+}
+.cabeçario_2_3{
+    margin-left: 20%;
+    color:white;
+}
+.cabeçario_2_3 a{
+    color:white;
+    text-decoration: none;
+}
+
+.cabeçario_2_3 a:hover{
+    text-decoration: underline;
+}
+.cabeçario_2_3 ion-icon{
+    width: 18px;
+    height: 18px;
+}
+
+.search {
+    font-size: .875rem;
+}
+
+
+.geral {
+    background: linear-gradient( rgb(26, 26, 26), #ccc, rgb(26, 26, 26));
+    background-color: #0d2355;
+}
+.teslazul{
+    width: 610.2px;
+    height: 406.78px;
+    margin-right: 20.16px;
+    border-radius: 30px;
+    
+}
+.teslalogopequno {
+    width: 60px;
+    height: 60px;
+    
+}
+.geral{
+    display: flex;
+    align-items:baseline;
+}
+.geral_1_1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.geral_1_1 li{
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.geral_1_1 li img{
+    border-radius: 7px;
+}
+.geral_1_1 li form h1{
+    color:white;
+}
+.logoteslaimagem{
+    width: 120px;
+    height: 24px;
+    padding: 7px, 21px;
+    background: rgb(194, 191, 191);
+    padding: 5px;
+    /*border-radius: 0.5px;*/
+    border: 1px solid #acb4c4;
+
+}
+.geral_1_1 li form .texto a{
+    color: white;
+    text-decoration:underline;
+}
+.texto{
+    color: white;
+}
+.estrela{
+    color: #ebff35;
+}
+.bntt{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-top: 10px;
+    font-size: 15px;
+    margin-top: 7px;
+    height: 40px;
+    cursor: pointer;
+    width: 264px;
+    border: none;
+    border-radius: 5px;
+    background: #161923;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.bntt a{
+        text-decoration: none;
+        color: white;
+}
+
+
+.bntt:hover{
+    background: #33363d;
+   
+}
+
+/*.geral2{
+    width: 100%;
+    background: black;
+    display: flex;
+    display: inline-block;
+    
+}
+.geral2 img{
+    width: 610.2px;
+    height: 406.78px;
+    margin-right: 20.16px;
+    border-radius: 30px;
+    margin-bottom: 200px;
+}
+.geral2 .teslagrande1{
+    margin-left: 50px;
+}*/
+.geral3 {
+    
+    background: url(teslaultimo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+.geral3 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.geral3 h2{
+    margin-top: 95px;
+    font-size: 40px;
+    color: #171a20;
+}
+.geral3 p{
+    color: #171a20;
+    font-size: 15px;
+}
+.geral3 p a{
+    color: #171a20;
+}
+.geral3 form li{
+    margin-top: 304px;
+    display:flex;
+    display: inline-block;
+
+}
+.geral3 form .pri input[type="submit"]{
+    font-size: 15px;
+    width: 264px;
+    height: 40px;
+    border-radius: 7px;
+    font: weight 10PX;
+    color: #ffffff;
+    background: #171a20cc;
+    border: 0px ;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.geral3 form .seg input[type="submit"]{
+    font-size: 15px;
+    width: 264px;
+    height: 40px;
+    border-radius: 7px;
+    font: weight 10PX;
+    color: #393c41;
+    background: #f4f4f4a6;
+    border: 0px ;
+    cursor: pointer;
+}
+.logoteslaimagem2{
+    margin-top: 15%;
+    width: 120px;
+    height: 24px;
+    /*padding: 7px, 21px;*/
+    background: rgb(194, 191, 191);
+    padding: 5px;
+    /*border-radius: 0.5px;*/
+    border: 1px solid #acb4c4;   
+    border-radius: 7px;
+}
+.geral4 {
+    
+    background: url(teslaultimo2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.geral4 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.geral4 h2{
+    margin-top: 95px;
+    font-size: 40px;
+    color: #171a20;
+}
+.geral4 p{
+    color: #171a20;
+    font-size: 15px;
+}
+.geral4 p a{
+    color: #171a20;
+}
+.geral4 form li{
+    margin-top: 304px;
+    display:flex;
+    display: inline-block;
+
+}
+.geral4 form .pri input[type="submit"]{
+    font-size: 15px;
+    width: 264px;
+    height: 40px;
+    border-radius: 7px;
+    font: weight 10PX;
+    color: #ffffff;
+    background: #171a20cc;
+    border: 0px ;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.geral4 form .seg input[type="submit"]{
+    font-size: 15px;
+    width: 264px;
+    height: 40px;
+    border-radius: 7px;
+    font: weight 10PX;
+    color: #393c41;
+    background: #f4f4f4a6;
+    border: 0px ;
+    cursor: pointer;
+}
+
+.geral5 {
+    
+    background: url(teslaultimo3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.geral5 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.geral5 h2{
+    margin-top: 95px;
+    font-size: 40px;
+    color: #171a20;
+}
+.geral5 p{
+    color: #171a20;
+    font-size: 15px;
+}
+.geral5 p a{
+    color: #171a20;
+}
+.geral5 form li{
+    margin-top: 304px;
+    display:flex;
+    display: inline-block;
+
+}
+.geral5 form .pri input[type="submit"]{
+    font-size: 15px;
+    width: 264px;
+    height: 40px;
+    border-radius: 7px;
+    font: weight 10PX;
+    color: #ffffff;
+    background: #171a20cc;
+    border: 0px ;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.geral5 form .seg input[type="submit"]{
+    font-size: 15px;
+    width: 264px;
+    height: 40px;
+    border-radius: 7px;
+    font: weight 10PX;
+    color: #393c41;
+    background: #f4f4f4a6;
+    border: 0px ;
+    cursor: pointer;
+}
+/*.geral6 {
+    
+    background: url(amelhor.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}*/
+.geral6 {
+    
+    background: url(DIFERENTAO.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.geral6 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.geral6 h2{
+    margin-top: 95px;
+    font-size: 40px;
+    color: #171a20;
+}
+.geral6 p{
+    color: #171a20;
+    font-size: 15px;
+}
+.geral6 p a{
+    color: #171a20;
+}
+.geral6 form li{
+    margin-top: 304px;
+    display:flex;
+    display: inline-block;
+
+}
+.geral6 form .pri input[type="submit"]{
+    font-size: 15px;
+    width: 264px;
+    height: 40px;
+    border-radius: 7px;
+    font: weight 10PX;
+    color: #ffffff;
+    background: #171a20cc;
+    border: 0px ;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.geral6 form .seg input[type="submit"]{
+    font-size: 15px;
+    width: 264px;
+    height: 40px;
+    border-radius: 7px;
+    font: weight 10PX;
+    color: #393c41;
+    background: #f4f4f4a6;
+    border: 0px ;
+    cursor: pointer;
+}
